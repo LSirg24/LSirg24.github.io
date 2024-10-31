@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!-- Louis Sirgiovanni ITEC236 Southern Illinois University 8/31/2024 - 10/5/2024 -->
+
+<html lang="en">
+<!-- Creating meta information on website with title and keywords -->
+<head>
+    
+
+    
+    <!-- Meta information for search engines -->
+    <meta name="description" content="Bicycle shop offering repairs and bikes for sale.">
+    
+    <!-- Using meta for search engines to find the website --> 
+    <meta name="keywords" content="bicycles, fix, repair, buy">
+
+
+    <!-- Characters used in HTML doc -->   
+    <meta charset="utf-8" /> 
+    
+    <!-- Main heading for Bike Shop -->
+    <title> Your Community Bike Shop </title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="SlickNav/slicknav.css">
+    <link rel="icon" href="images/favicon.ico" type="Icon">
+    
+    <!-- Hidding the OG menu -->
+<style>
+    
+ #mobile_menu {
+            display: none;
+    }
+</style>
+
+
+    <!-- Navigation menu PUT THIS ON EVERY PAGE--> 
+  <!--  <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.htm" class="current">Home</a></li>
+            <li><a href="sales.htm" >Sales</a></li>
+            <li><a href="rentals.htm" >Rentals</a></li>
+            <li><a href="services.htm" >Services</a></li>
+            <li><a href="contact.htm" class="lastitem">Contact</a></li>
+        </ul>
+    </nav> -->
+
+       <!-- Navigation menu PUT THIS ON EVERY PAGE--> 
+    
+</head>
+    
+<body> 
+    <!-- BEGINING THE BODY -->
+
+    
+        <!-- Navigation menu PUT THIS ON EVERY PAGE-->
+        <!-- SlickNav responsive for MOBILE navigation menu -->
+
+     <ul id="mobile_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.htm">Rentals</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <!-- Desktop navigation menu -->
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.htm">Rentals</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+ 
+    
+    <!-- Creating a heading level 1 -->
+    <h1> Your Community Bike Shop </h1>
+
+    <!-- image for bike shop -->
+    <img src="images/Bike.jpg" class="existing-image" alt="Your Community Bike Shop Picture">
+    
+    <img src="images/bike-main.jpg" class="main-image" alt="Happy Customers">
+    
+    <!-- Contact Information heading level 3 function --> 
+    <h3>Contact information</h3>
+
+    <!-- Contact information -->
+    <p>Kenneth Ortiz</p>
+
+    <!-- Adding inline element clickable phone number link -->
+    <p>Phone Number: <a href="tel:773-234-8390">773-234-8390</a></p>
+
+    <!-- Adding inline element for clickable email link-->
+    <p>
+    Email: <a href="mailto:elitebicycleshop@aol.com">elitebicycleshop@aol.com</a> 
+    </p>
+    
+    <!-- Address Level 3 heading -->
+    <h3>Address</h3>
+    <p>839 West Peabody St. Chicago IL, 60639 </p>
+    
+    <!-- Adding the table -->
+    <table>
+        <caption>Service Pricing Table</caption>
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>Parts Needed</th>
+                <th>Technician</th>
+                <th>Available Slots</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="6">All prices include tax. Contact us for bulk discounts.</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Basic Tune-Up</td>
+                <td>30 min</td>
+                <td>$50</td>
+                <td>None</td>
+                <td>Mark</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Advanced Tune-Up</td>
+                <td>1 hour</td>
+                <td>$90</td>
+                <td>Chain, Brake Pads</td>
+                <td>Todd</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Flat Tire Fix</td>
+                <td>15 min</td>
+                <td>$15</td>
+                <td>Tube</td>
+                <td>John</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Brake Adjustment</td>
+                <td>20 min</td>
+                <td>$30</td>
+                <td>Brake Cable</td>
+                <td>Mark</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Wheel Alignment</td>
+                <td>45 min</td>
+                <td>$70</td>
+                <td>Spokes</td>
+                <td>John</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Full Overhaul</td>
+                <td>2 hours</td>
+                <td>$150</td>
+                <td>Multiple Parts</td>
+                <td>Todd</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Chain Replacement</td>
+                <td>30 min</td>
+                <td>$40</td>
+                <td>Chain</td>
+                <td>Mark</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Handlebar Adjustment</td>
+                <td>20 min</td>
+                <td>$25</td>
+                <td>Grips</td>
+                <td>John</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Seat Replacement</td>
+                <td>15 min</td>
+                <td>$35</td>
+                <td>Seat</td>
+                <td>Todd</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Gear Adjustment</td>
+                <td>30 min</td>
+                <td>$45</td>
+                <td>Cables</td>
+                <td>Mark</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+    
+<!-- END OF TABLE--!>
+    <!-- jQuery & SlickNav JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#mobile_menu').slicknav();
+        });
+    </script>
+    
+
+    <!-- END OF BODY -->
+</body>
+
+</html>

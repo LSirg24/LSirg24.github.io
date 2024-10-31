@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- Louis Sirgiovanni ITEC236 Southern Illinois University 9/18/2024 - 10/5/2024 -->
+
+<html lang="en">
+<!-- Creating meta information on website with title and keywords -->
+<head>
+
+    <!-- Meta information for search engines -->
+    <meta name="description" content="Bicycle shop offering repairs and bikes for sale.">
+    
+    <!-- Using meta for search engines to find the website --> 
+    <meta name="keywords" content="bicycles, fix, repair, buy">
+
+
+    <!-- Characters used in HTML doc -->   
+    <meta charset="utf-8" /> 
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="Slicknav/slicknav.css">
+    <link rel="icon" href="images/favicon.ico" type="Icon">
+   
+   <!-- 
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>  
+    -->
+<!-- Hidding the OG menu -->
+    
+<style>
+    
+ #mobile_menu {
+            display: none;
+    } 
+</style>
+     
+</head>
+    
+    
+    
+<body> 
+    <!-- BEGINING THE BODY -->
+
+    
+    
+        <!-- Navigation menu PUT THIS ON EVERY PAGE-->
+        <!-- SlickNav responsive for MOBILE navigation menu -->
+
+     <ul id="mobile_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.htm">Rentals</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <!-- Desktop navigation menu -->
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.htm">Rentals</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    <!-- Navigation Menu  
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.html">Home</a> </li> 
+                <li><a href="sales.html">Sales</a></li> 
+                <li><a href="rentals.htm" class="current">Rentals</a></li>
+                <li><a href="services.html" >Services</a></li> 
+                <li><a href="contact.html" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+    -->
+   <!-- Main heading for Bike Shop -->
+   <h1>Your Community Bike Shop Rentals</h1>
+    
+    <!-- image for bike shop -->
+    <img src="images/Bike.jpg" class="existing-image" alt="Your Community Bike Shop Picture">
+    
+    <img src="images/bike-main.jpg" class="main-image" alt="Happy Customers">
+    
+<!-- START OF DIV -->
+<!-- Flexbox Two-column layout contianer method -->
+<div class="container">
+    
+    <!-- 1st column bicycles with info -->
+    <div class="column">
+        
+        <h2>Street Bikes</h2>
+        
+        <h4>Elite BMX Destro</h4>
+        <p>The NEW Destro from Elite BMX is another great Mid-level complete that works well on the street, dirt, and the skate park. With upgraded components from our entry level, this is sure to add another great pricing level to your store. Amazing value from Your Community Bike Shop! </p>
+        <p>Frame: Hi-tensile steel (20" Toptube)</p>
+        <p>Wheelset: Dual Walled, Sealed Bearings, 36 Spoke Count</p>
+        <p>Crank: 3-Piece Cr-Mo Crank x 170mm</p>
+        
+        <h4>GT Slammer Conway BMX Bike</h4>
+        <p>
+        The Slammer is the perfect first bike. At home in the neighborhood or the skatepark allowing a beginner rider to fit in with their friends without the high price tag.
+        </p>
+        <p>
+        Frame: 100% Hi-Ten Steel Tubes (20” Toptube)</p>
+        <p>
+        Wheelset: GT NBS tires/ Single Wall Rims</p>
+        <p>
+        Crank: GT Power Series Cr-Mo 3pc. Cranks
+        </p>
+        
+        <h2>Mountain Bikes</h2>
+        
+        <h4>Mongoose Switchback Comp</h4>
+        <p>A perfect mountain bicycle for beginners eager to tackle the trails with ease. This bike offers effortless shifting and dependable stopping power in all conditions.</p>
+        <p>Number of Gears: 9 </p>
+        <p>Fork Travel: 100 millimeteres </p>
+        <p>Wheel Size: 29 Inches </p>
+        
+        <h4>Trail 8 Mountain Bike</h4>
+        <p>Built to ignite a passion for the trail and raise your game, the hardtail Cannondale Trail 8 bike is ready to take on the mountains with its progressive geometry and seriously dirt-ready components.</p>
+        <p>Number of Gears: 14</p>
+        <p>Fork Travel: 75 millimeters</p>
+        <p>Wheel Size: 29 Inches</p>
+    </div>
+    
+    <!-- 2nd column Rental prices and terms & conditions -->
+    <div class="column">
+        <h2>Rental Pricing</h2>
+        <p>Daily rate: $19.99</p>
+        <p>Weekly rate: $140.00</p>
+        <h2>Extras</h2>
+        <p>Helmet: $4.99 per day</p>
+        <h2>Terms and Conditions for Bike Rentals</h2>
+        <p>By renting a bicycle from Your Community Bike Shop, you agree to the following terms and conditions:
+        You must be at least 16 years old to rent a bicycle. You may be required to present valid identification, such as a driver's license or passport, at the time of rental. The rental period is 16 hours/day. Late fees will apply for bicycles returned after the agreed-upon time.A $10.00 security deposit is required at the time of rental. This deposit will be refunded upon return of the bicycle in good condition.You are responsible for returning the bicycle in the same condition as it was received. Any damage or loss will be assessed, and the security deposit may be retained to cover repair or replacement costs.Helmets are required by law in many jurisdictions. You are responsible for providing your own helmet or renting one from us at an additional cost.You are responsible for following all traffic laws and regulations while riding the rented bicycle. Your Community Bike Shop is not liable for any injuries or damages caused by the use of the rented bicycle. This agreement shall be governed by and construed in accordance with the laws of Illinois. Your Community Bike Shop reserves the right to modify these terms and conditions at any time. Any changes will be effective upon posting on our website. By renting a bicycle from Your Community Bike Shop, you acknowledge that you have read, understood, and agreed to these terms and conditions.</p>
+    </div>
+</div>
+    
+    <!-- END OF DIV -->
+
+    <!-- jquery & SlickNav -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#mobile_menu').slicknav();
+        });
+    </script>
+
+    
+    <!-- END OF BODY -->
+</body>
+
+</html>
+
