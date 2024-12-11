@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paws and Whiskers Shelter - Providing loving homes for animals in need.">
+    <meta name="author" content="Louis Sirgiovanni">
+    
+    <meta name="date-produced" content="2024-12-05">
+    <title>Paws and Whiskers Shelter</title>
+    
+<!-- Main CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+<!-- print CSS -->
+<link rel="stylesheet" href="styles/print.css" media="print">
+
+
+    <!-- Adobe Edge WebFont -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap">
+
+    <!-- SlickNav CSS -->
+    <link rel="stylesheet" href="styles/slicknav.css">
+
+          
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="Icon">
+
+    <!-- Scripts -->
+    
+        <!-- jquery & SlickNav -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+    <script>
+        
+  $(document).ready(function () {
+      function toggleSlickNav() {
+          console.log("Checking screen width:", $(window).width());
+          if ($(window).width() <= 767) {
+              console.log("Initializing SlickNav");
+              $('#mobile_menu').not('.slicknav-menu').slicknav({ prependTo: 'header' });
+          } else {
+              console.log("Destroying SlickNav");
+              $('#mobile_menu').slicknav('destroy').removeClass('slicknav-menu').removeAttr('style');
+          }
+      }
+      toggleSlickNav(); // Run on load
+      $(window).on('resize', toggleSlickNav); // Run on resize
+  });
+</script>
+
+
+    <script src="slideshow.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+    
+    <script src="SlickNav/script.js" defer></script>
+    
+    <style>
+        
+ #mobile_menu {
+            display: none;
+    }
+</style>
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+      
+        
+
+    <div class="logo">
+            <img src="images/logo.png" alt="Paws and Whiskers Logo">
+    </div>
+    </header>
+    
+     <ul id="mobile_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    
+    <!-- Desktop navigation menu -->
+    <nav id="nav_menu">
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+        
+    <!-- Main Content -->
+    <main>
+        <section class="mission">
+            <h1>Welcome to Paws and Whiskers Shelter!</h1>
+            <p>Our mission is to provide loving homes for animals in need, ensuring their safety and happiness. Explore our site to see how you can help or find your next furry family member!</p>
+        </section>
+
+        <section class="featured-pets">
+            <h2>Featured Pets</h2>
+            <div class="slideshow">
+                <!-- Slideshow container -->
+                <img src="images/pet1.jpg" alt="Featured Pet 1">
+                <img src="images/pet2.jpg" alt="Featured Pet 2">
+                <img src="images/pet3.jpg" alt="Featured Pet 3">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Paws and Whiskers Shelter | Designed by Louis Sirgiovanni</p>
+    </footer>
+
+
+</body>
+</html>

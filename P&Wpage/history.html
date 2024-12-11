@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the history, mission, and team behind Paws and Whiskers Shelter.">
+    <meta name="author" content="Paws and Whiskers Team">
+    <meta name="date" content="2024-12-05">
+    
+    <title>Our History - Paws and Whiskers Shelter</title>
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Adobe Edge WebFont -->
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+       <!-- Print CSS -->
+    <link rel="stylesheet" href="styles/main.css" media="print">
+
+    <!-- SlickNav CSS -->
+    <link rel="stylesheet" href="styles/slicknav.css">
+    
+      <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="Icon">
+    
+<style>
+        
+ #mobile_menu {
+            display: none;
+    }
+</style>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+     <script>
+  $(document).ready(function () {
+      function toggleSlickNav() {
+          console.log("Checking screen width:", $(window).width());
+          if ($(window).width() <= 767) {
+              console.log("Initializing SlickNav");
+              $('#mobile_menu').not('.slicknav-menu').slicknav({ prependTo: 'header' });
+          } else {
+              console.log("Destroying SlickNav");
+              $('#mobile_menu').slicknav('destroy').removeClass('slicknav-menu').removeAttr('style');
+          }
+      }
+      toggleSlickNav(); // Run on load
+      $(window).on('resize', toggleSlickNav); // Run on resize
+  });
+</script>
+  
+  
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Paws and Whiskers Logo">
+        </div>
+    
+    </header>
+
+<ul id="mobile_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    
+    <!-- Desktop navigation menu -->
+    <nav id="nav_menu">
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="history">
+         
+            <h2 style="text-align: center; color: #ff9966;  font-size: 2rem; margin-bottom: 1.5rem;">The Shelter's Mission</h2>
+            <div class="two-column-layout">
+                <!-- Left Column -->
+                <div class="column">
+                    <div class="info-block">
+                        <h3 style="font-family: 'Fjalla One', sans-serif;">Team Information</h3>
+                        <p>Our team is made up of dedicated volunteers and professionals who ensure every animal gets the care they deserve.</p>
+                        <img src="images/team1.jpg" alt="Team Photo" class="responsive-image">
+                    </div>
+                    <div class="info-block">
+                        <img src="images/team2.jpg" alt="Team Photo" class="responsive-image">
+                        <p>We operate with compassion and commitment, making a difference in the lives of pets and their future families.</p>
+                    </div>
+                    <div class="info-block">
+                        <p>Meet our staff and volunteers who bring passion and love to Paws and Whiskers.</p>
+                        <img src="images/pet12.jpg" alt="Pet in the shelter" class="responsive-image">
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="column">
+                    <div class="info-block">
+                        <h3 style="font-family: 'Fjalla One', sans-serif;">Get to Know Us</h3>
+                        <p>Founded in 2000, we’ve grown into a fully operational shelter with a reputation for excellence.</p>
+                        <img src="images/history1.jpg" alt="Shelter History" class="responsive-image">
+                    </div>
+                    <div class="info-block">
+                        <img src="images/history2.jpg" alt="Shelter Staff" class="responsive-image">
+                        <p>We’ve helped rehome over 5,000 animals in the last two decades, and our journey continues.</p>
+                    </div>
+                    <div class="info-block">
+                        <p>Explore our work and achievements. Every story adds to the shelter's legacy.</p>
+                        <img src="images/pet13.jpg" alt="Happy adopted pet" class="responsive-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paws and Whiskers Shelter. All Rights Reserved.</p>
+        <p>Page last updated on: December 5, 2024</p>
+    </footer>
+</body>
+</html>

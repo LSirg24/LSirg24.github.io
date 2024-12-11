@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get involved with Paws and Whiskers Shelter: volunteer roles, donation progress, and community stories.">
+    <meta name="author" content="Your Name">
+    <meta name="date-tested" content="2024-12-05">
+    <meta name="date-produced" content="2024-12-05">
+    <title>Get Involved | Paws and Whiskers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/main.css">
+       <!-- Print CSS -->
+    <link rel="stylesheet" href="styles/main.css" media="print">
+
+    <!-- Adobe Edge WebFont -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <!-- SlickNav CSS -->
+    <link rel="stylesheet" href="styles/slicknav.css">
+    
+      <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="Icon">
+
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+     <script>
+        
+  $(document).ready(function () {
+      function toggleSlickNav() {
+          console.log("Checking screen width:", $(window).width());
+          if ($(window).width() <= 767) {
+              console.log("Initializing SlickNav");
+              $('#mobile_menu').not('.slicknav-menu').slicknav({ prependTo: 'header' });
+          } else {
+              console.log("Destroying SlickNav");
+              $('#mobile_menu').slicknav('destroy').removeClass('slicknav-menu').removeAttr('style');
+          }
+      }
+      toggleSlickNav(); // Run on load
+      $(window).on('resize', toggleSlickNav); // Run on resize
+  });
+</script>
+    
+     <style>
+        
+ #mobile_menu {
+            display: none;
+    }
+</style>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Paws and Whiskers Logo">
+
+        </div>
+        
+    </header>
+<ul id="mobile_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    
+    <!-- Desktop navigation menu -->
+    <nav id="nav_menu">
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="involvement">
+            <h1>Volunteer Experiences</h1>
+            <div class="video-section">
+            
+                <video controls width="540">
+                    <source src="videos/shelter.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="volunteer-roles">
+                <h2>Volunteer Opportunities</h2>
+                <ol>
+                    <li>Pet care and feeding</li>
+                    <li>Community outreach events</li>
+                    <li>Cleaning and maintenance</li>
+                    <li>Fundraising and administration</li>
+                </ol>
+            </div>
+
+            <div class="donation-section">
+                <h2>Donation and Adoption Progress</h2>
+                <table>
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Funds Raised</th>
+            <th>Goal</th>
+            <th>Volunteer Hours</th>
+            <th>Pets Adopted</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>August</td>
+            <td>$8,500</td>
+            <td>$10,000</td>
+            <td>120</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Septemeber</td>
+            <td>$5,000</td>
+            <td>$10,000</td>
+            <td>120</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>October</td>
+            <td>$6,000</td>
+            <td>$10,000</td>
+            <td>150</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>November</td>
+            <td>$10,000</td>
+            <td>$10,000</td>
+            <td>180</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>December</td>
+            <td>$4,000</td>
+            <td>$10,000</td>
+            <td>100</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
+                <div class="donation-links">
+                    <a href="contact.html" class="btn">Donate Now</a>
+                    <a href="contact.html" class="btn">Become a Volunteer</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paws and Whiskers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
