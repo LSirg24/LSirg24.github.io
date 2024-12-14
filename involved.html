@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- Louis Sirgiovanni ITEC236 Southern Illinois University 12/12/2024 - 12/13/2024 -->
+<html lang="en">
+<head>
+    <!-- Character encoding and viewport design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta tags  -->
+    <meta name="description" content="Get involved with Paws and Whiskers Shelter: volunteer roles, donation progress, and community stories.">
+    <meta name="keywords" content="adoption, cats, dogs, animal shelter">
+
+    <!-- Page Title -->
+    <title>Get Involved | Paws and Whiskers</title>
+    
+    <!-- Link to the main CSS stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- SlickNav CSS for mobile navigation menu -->
+    <link rel="stylesheet" href="styles/slicknav.css">
+    
+    <!-- Favicon for the browser tab icon -->
+    <link rel="icon" href="images/favicon.ico" type="Icon">
+
+    <!-- jQuery for functionality -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- SlickNav JavaScript for mobile menu -->
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+    
+    <!-- JavaScript --> 
+    <script>
+        $(document).ready(function () {
+            function toggleSlickNav() {
+                console.log("Checking screen width:", $(window).width());
+                if ($(window).width() <= 767) {
+                    console.log("Initializing SlickNav");
+                    $('#mobile_menu').not('.slicknav-menu').slicknav({ prependTo: 'header' });
+                } else {
+                    console.log("Destroying SlickNav");
+                    $('#mobile_menu').slicknav('destroy').removeClass('slicknav-menu').removeAttr('style');
+                }
+            }
+            toggleSlickNav(); // Run on page load
+            $(window).on('resize', toggleSlickNav); // Run on window resize
+        });
+    </script>
+    
+    <style>
+        /* CSS to hide mobile menu by default */
+        #mobile_menu {
+            display: none;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!-- Header section with logo -->
+    <header>
+        <div class="logo">
+            <!-- Logo image for Paws and Whiskers -->
+            <img src="images/logo.png" alt="Paws and Whiskers Logo">
+        </div>
+    </header>
+
+    <!-- Mobile navigation menu (hidden by default) -->
+    <ul id="mobile_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adoptable Pets</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Desktop navigation menu -->
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adopt.html">Adoptable Pets</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="involved.html">Get Involved</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+        <section class="involvement">
+            <!-- Section title for Volunteer Experiences -->
+            <h1>Volunteer Experiences</h1>
+            
+            <!-- Video section showcasing the shelter -->
+            <div class="video-section">
+                <video class="video" controls autoplay>
+                    <source src="videos/shelter.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- Volunteer Opportunities Section -->
+            <div class="volunteer-roles">
+                <h2>Volunteer Opportunities</h2>
+                <ol>
+                    <!-- List of volunteer roles available at the shelter -->
+                    <li>Pet care and feeding</li>
+                    <li>Community outreach events</li>
+                    <li>Cleaning and maintenance</li>
+                    <li>Fundraising and administration</li>
+                </ol>
+            </div>
+
+            <!-- Donation and adoption progress section -->
+            <div class="donation-section"></div>
+            <h2>Donation and Adoption Progress</h2>
+            
+            <!-- Table displaying donation and adoption statistics -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Funds Raised</th>
+                        <th>Goal</th>
+                        <th>Volunteer Hours</th>
+                        <th>Pets Adopted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>August</td>
+                        <td>$8,500</td>
+                        <td>$10,000</td>
+                        <td>120</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>September</td>
+                        <td>$5,000</td>
+                        <td>$10,000</td>
+                        <td>120</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>October</td>
+                        <td>$6,000</td>
+                        <td>$10,000</td>
+                        <td>150</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>November</td>
+                        <td>$10,000</td>
+                        <td>$10,000</td>
+                        <td>180</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>December</td>
+                        <td>$4,000</td>
+                        <td>$10,000</td>
+                        <td>100</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Links to donate or become a volunteer -->
+            <div class="donation-links">
+                <a href="contact.html" class="btn">Donate Now</a>
+                <a href="contact.html" class="btn">Become a Volunteer</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with copyright notice -->
+    <footer>
+        <p>&copy; 2024 Paws and Whiskers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
