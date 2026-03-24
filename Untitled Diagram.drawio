@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
   <diagram name="Page-1" id="f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05">
-    <mxGraphModel dx="970" dy="3122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="973" dy="3262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LfSNPfhCBDXeMD5z6SsO-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="1070" width="750" x="38" y="-2060" as="geometry" />
+          <mxGeometry height="800" width="750" x="38" y="-2060" as="geometry" />
         </mxCell>
         <mxCell id="LfSNPfhCBDXeMD5z6SsO-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lou Acura" vertex="1">
           <mxGeometry height="60" width="120" x="50" y="-2050" as="geometry" />
@@ -14,19 +14,28 @@
           <mxGeometry height="60" width="730" x="50" y="-1970" as="geometry" />
         </mxCell>
         <mxCell id="LfSNPfhCBDXeMD5z6SsO-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value=" Search Customer/Vehicle:" vertex="1">
-          <mxGeometry height="40" width="580" x="60" y="-1960" as="geometry" />
+          <mxGeometry height="40" width="270" x="60" y="-1960" as="geometry" />
         </mxCell>
-        <mxCell id="LfSNPfhCBDXeMD5z6SsO-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Search" vertex="1">
-          <mxGeometry height="40" width="120" x="650" y="-1960" as="geometry" />
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Search__________" vertex="1">
+          <mxGeometry height="40" width="420" x="350" y="-1960" as="geometry" />
         </mxCell>
-        <mxCell id="LfSNPfhCBDXeMD5z6SsO-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Vehicle Info&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Year&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Make&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VIN Number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mileage&lt;/div&gt;" vertex="1">
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Vehicle Info __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Year __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Make __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Model __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VIN Number __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mileage __________&lt;/div&gt;" vertex="1">
           <mxGeometry height="330" width="190" x="320" y="-1880" as="geometry" />
         </mxCell>
-        <mxCell id="LfSNPfhCBDXeMD5z6SsO-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Service History&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Last visit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Previous Services&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional Notes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Service History __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Last visit __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Previous Services __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional Notes __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="330" width="190" x="580" y="-1880" as="geometry" />
         </mxCell>
-        <mxCell id="LfSNPfhCBDXeMD5z6SsO-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Customer Info&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Phone&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Email&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Customer Info __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Name __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Phone __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Email __________&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="330" width="190" x="60" y="-1880" as="geometry" />
+        </mxCell>
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&amp;nbsp;Current Visit __________&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;Customer Concern: ____________________&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;____________________&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;Service Task: __________&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;Estimated Time:__________&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="710" x="58" y="-1530" as="geometry" />
+        </mxCell>
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Estimated Cost ($):__________" vertex="1">
+          <mxGeometry height="30" width="210" x="220" y="-1420" as="geometry" />
+        </mxCell>
+        <mxCell id="LfSNPfhCBDXeMD5z6SsO-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="[Save]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [Assign Technician]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [Print Summary] " vertex="1">
+          <mxGeometry height="60" width="710" x="60" y="-1370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
